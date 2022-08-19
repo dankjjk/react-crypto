@@ -1,0 +1,39 @@
+.header {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    padding: 25px 0;
+
+    &Content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerLogo img {
+        height: 30px;
+        max-width: 100%;
+    }
+
+    .headerNav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            li {
+                padding: 0 15px;
+            }
+        }
+    }
+
+    .headerContact {
+        img {
+            height: 30px;
+            margin-right: 5px;
+        }
+        a {
+            align-items: center;
+            color: inherit;
+            display: flex;
+        }
+    }
+}
